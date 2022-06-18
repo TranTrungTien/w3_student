@@ -159,9 +159,6 @@ const handleDelete = async (e) => {
 
   if (response.ok) {
     alert("Successfully deleted !!! please refresh your page");
-    fetchUser().then((_) => {
-      assignAction();
-    });
   } else {
     alert("Something went wrong");
   }
