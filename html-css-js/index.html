@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="App">
+        <div class="container">
+            <div class="register">
+                <div class="register__heading">
+                    <h2 class="register__heading--text">Đăng ký tài khoản User</h2>
+                </div>
+                <form id="form" class="register__form">
+                    <div>
+                        <div class="form__row">
+                            <label class="" for="username">User Name</label>
+                            <input type="text" name="username" class="form__row--input" id="username" value="">
+                        </div>
+                        <div class="form__row">
+                            <label class="" for="fullname">Full Name</label>
+                            <input type="text" name="fullname" class="form__row--input" id="fullname" value="">
+                        </div>
+                        <div class="form__row">
+                            <label class="" for="email">Email</label>
+                            <input type="text" name="email" class="form__row--input" id="email" value="">
+                        </div>
+                        <div class="form__row">
+                            <label class="" for="birthday">BirthDay</label>
+                            <input type="date" name="birthday" class="form__row--input" id="birthday" value="">
+                        </div>
+                    </div>
+                    <div class="register__form--btn">
+                        <button class="form--btn btn--submit" type="submit">Save</button>
+                        <button class="form--btn btn--reset" type="reset">Reset</button>
+                    </div>
+                </form>
+            </div>
+            <div id="show-user" class="show">
+                <div class="show__heading">
+                    <div class="col--1 col"><span>No</span></div>
+                    <div class=" col--2 col"><span>User Name</span>
+                    </div>
+                    <div class=" col--3 col"><span>Full Name</span>
+                    </div>
+                    <div class=" col--4 col"><span>Email</span>
+                    </div>
+                    <div class=" col--5 col"><span>BirthDay</span>
+                    </div>
+                    <div class=" col--6 col"></div>
+                    <div class=" col--7"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./scrip.js"></script>
+
+</html>

@@ -33,6 +33,7 @@ const getById = (req, res) => {
 
 const update = (req, res) => {
   const { _id, ...user } = req.body;
+
   User.findByIdAndUpdate(_id, user, null, (err, doc) => {
     if (err) {
       res.status(500).send(err);
