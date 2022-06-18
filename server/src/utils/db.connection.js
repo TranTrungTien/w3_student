@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const DBConnect = () => {
   return new Promise((resolve, reject) => {
     mongoose.connect(
-      "mongodb+srv://trantrungtien:Matkhau12345@cluster0.mlapa.mongodb.net/students_management_ghtk?retryWrites=true&w=majority",
+      "secret key @@@@",
       { useNewUrlParser: true, useUnifiedTopology: true },
       (error) => {
         if (error) {
