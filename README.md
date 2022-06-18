@@ -2,4 +2,6 @@
 save, update, edit and delete user ---> reactjs, nodejs, mongodb cloud
 bài tập làm thêm đc lưu trong folder bai-tap2-lam-them
 Em mong nhận được nhận xét ạ. Em cảm ơn.
+
+// update --- chi su dung html css js thuan -- khong thu vien trong folder "html css js"
 ![def](https://user-images.githubusercontent.com/71311738/174433284-cd8fc08c-7736-45af-807b-4c526fc5985d.jpeg)
